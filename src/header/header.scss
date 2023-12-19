@@ -1,0 +1,122 @@
+.navbar {
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.container-fluid{
+    flex-wrap: wrap !important;
+}
+.list-nav{
+    list-style-type: none ;
+}
+.list-nav li:first-child{
+    @media only screen and (max-width: 960px) {
+        margin-top: 30px;
+    }
+}
+.list-nav li{
+    color: #EFE6E1;
+}
+.select-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+}
+
+.select-menu a {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    color: #EFE6E1;
+
+}
+
+.navbar-brand {
+    padding: 8px 0;
+    @media only screen and (max-width: 992px) {
+        img{
+            width: 186px;
+            height: 22px;
+        }
+    }
+}
+
+
+.navbar-toggler:focus {
+    outline: none;
+    border: none;
+    box-shadow: none !important;
+}
+
+.nav-right-big {
+    width: 290px;
+}
+.nav-right-small {
+    width: 83px;
+}
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    color: #EFE6E1;
+}
+
+.nav-right img {
+    width: 16px;
+    height: 16px;
+    margin: auto 0;
+    cursor: pointer;
+}
+.nav-right input {
+    margin: auto 0;
+    outline: none;
+    background-color: #A27347;
+    border: none;
+    color: #EFE6E1;
+}
+
+.nav-right select {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: auto 0;
+    background-color: unset;
+    color: #EFE6E1;
+    border: 0;
+    outline: none;
+}
+.nav-right option {
+    background-color: #1A110C;
+    color: #EFE6E1;
+}
+
+.nav-bottom-div{
+    height: 30px;
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.white-line{
+    height: 0.4px;
+    left: 0;
+    top: 55px;
+    background-color: rgba(111, 78, 49, 0.60);
+}
+
+.select-type{
+    width: 714px;
+    display: flex;
+    justify-content: space-between;
+}
+.select-type a {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    color: #EFE6E1;
+
+}

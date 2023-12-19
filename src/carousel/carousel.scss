@@ -1,0 +1,112 @@
+.carousel-container {
+    margin-top: 10px;
+
+    .row {
+        --bs-gutter-x: 0 !important;
+    }
+}
+
+.carousel-company-item {
+    height: 666px;
+    width: 100%;
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 666px;
+    }
+
+    .carousel-text {
+        color: #EFE6E1;
+        text-align: center;
+        font-family: Brygada1918;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px;
+        position: absolute;
+        top: 167px;
+        left: 132px;
+        right: 132px;
+    }
+
+    @media only screen and (max-width: 992px) {
+        .carousel-text {
+            font-size: 30px;
+            line-height: 36px;
+        }
+    }
+
+    @media only screen and (max-width: 570px) {
+        .carousel-text {
+            left: 32px;
+            right: 32px;
+        }
+    }
+}
+
+.carousel-button {
+    color: #FFF;
+    font-family: Brygada1918;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 12px 40px;
+    border: 1px solid #A27347;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: calc((100% - 138px)/2);
+    z-index: 99;
+
+    &:hover {
+        background: #A27347;
+        color: #FFF;
+    }
+
+    @media only screen and (max-width: 992px) {
+        font-size: 18px;
+        &:hover {
+            background: none;
+            color: #FFF;
+        }
+        &:active {
+            background: #A27347;
+            color: #FFF;
+        }
+    }
+}
+
+.carousel-container .swiper-pagination-bullet {
+    opacity: 1 !important;
+    width: 12px;
+    height: 6px;
+    background-color: white !important;
+}
+
+.carousel-container .swiper-pagination-bullets {
+    bottom: 100px !important;
+
+    @media only screen and (max-width: 992px) {
+        display: none !important;
+    }
+}
+
+.carousel-container .swiper-pagination-bullet-active {
+    opacity: 1 !important;
+    width: 25px;
+    height: 6px;
+    background-color: #A27347 !important;
+}
+
+.carousel-video-item {
+    width: 100%;
+    height: 666px;
+
+    video {
+        width: 100%;
+        height: 666px;
+        object-fit: cover;
+    }
+}
