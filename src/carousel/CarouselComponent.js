@@ -10,7 +10,7 @@ import { Navigation } from 'swiper/modules';
 import { Pagination } from 'swiper/modules';
 import img1 from "./media/image1.png"
 import cigar from "./media/cigar.mp4"
-import Fade from 'react-reveal/Fade';
+import Fade from '@successtar/react-reveal/Fade';
 
 
 export default function CarouselComponent() {

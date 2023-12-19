@@ -3,7 +3,7 @@ import logo from "./media/logo.png"
 import search from "./media/search.png"
 import btnHamburger from "./media/btnHamburger.png"
 import { useState } from 'react'
-import Fade from 'react-reveal/Fade';
+import Fade from '@successtar/react-reveal/Fade';
 
 export default function Header() {
     const [searchinput, setSearchinput] = useState(false)
